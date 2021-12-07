@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import img from './images/chat-box.png'
 
-function App() {
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d-flex">
+
+      <section className="w-25 border p-2">
+        <div className="d-flex ">
+          <div className="w-25">
+            <img src={img} alt="profil foto" className="w-75" />
+          </div>
+
+          <h4>name</h4>
+        </div>
+      </section>
+
+      <main className="w-75 border">
+
+      </main>
+
+
     </div>
-  );
+  )
 }
 
 export default App;
