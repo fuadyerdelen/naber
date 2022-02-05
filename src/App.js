@@ -1,26 +1,30 @@
-import img from './images/chat-box.png'
+import Main from './main';
+import Persons from './persons';
+
+
+
+
+import 'firebase/firestore';  
+import 'firebase/auth';
+import firebase from 'firebase/compat/app';
+
+
+
+
 
 const App = () => {
 
   return (
-    <div className="d-flex">
 
-      <section className="w-25 border p-2">
-        <div className="d-flex ">
-          <div className="w-25">
-            <img src={img} alt="profil foto" className="w-75" />
-          </div>
-
-          <h4>name</h4>
-        </div>
-      </section>
-
-      <main className="w-75 border">
-
-      </main>
-
+    <div className="d-flex w-100">
+      <div>
+      </div>
+      <Persons />
+      <Main />
 
     </div>
+
+
   )
 }
 

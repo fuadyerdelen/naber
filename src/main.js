@@ -1,10 +1,16 @@
-import Login from "./login";
+import Writemsg from "./write";
 
 function Main() {
     return (
-        <div>
-            <Login />
-        </div>
+
+        <main className="w-75 border d-flex flex-column">
+            <div id="messages_content" className="d-flex ">
+                <h2>Mesajlar</h2>
+            </div>
+            <Writemsg />
+
+        </main>
+
     )
 }
 
