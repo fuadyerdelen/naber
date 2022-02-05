@@ -6,7 +6,10 @@
 .form-control {
   box-shadow: none !important
 }
-
+#personImg{
+  width: 80px;
+  height: 80px;
+}
 section {
   height: 100vh;
   background-color: #f5f5f5;

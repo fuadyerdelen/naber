@@ -10,6 +10,7 @@ const Persons = () => {
 
             <div className='d-flex flex-row justify-content-between'>
                 <div><h2 className="mb-4">Kisiler</h2></div>
+
                 <div>
                     <button type='buttom' className='btn' data-bs-toggle="modal" data-bs-target="#add_person" >Add</button>
                     <div className='modal fade' id='add_person' tabIndex="-1" aria-hidden="true">
@@ -20,7 +21,7 @@ const Persons = () => {
                                 </div>
                                 <div className='modal-body'>
                                     <form className='d-flex flex-column'>
-            
+
                                         <label htmlFor="person_id" className='form-label'>Person ID :
                                             <input type="text" id='person_id' className='form-control' />
                                         </label>
@@ -28,20 +29,13 @@ const Persons = () => {
                                             <input type="text" id='person_name' className='form-control' />
                                         </label>
 
-                                        <button className='btn btn-success'>Add</button>
+                                        <button className='btn btn-success' >Add</button>
 
                                     </form>
                                 </div>
-
                             </div>
-
-
                         </div>
-
-
                     </div>
-
-
                 </div>
             </div>
 
